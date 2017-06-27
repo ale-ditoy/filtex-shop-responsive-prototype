@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>title</title>
+    <link rel="stylesheet" href="view/css/bootstrap.min.css">
+		<style>
+    div {
+      border:1px solid black;
+    }
+		@media (min-width:992px) {
+			.container-fluid {
+        max-width:1040px;
+			}
+		}
+/* make sidebar nav vertical for md+ */ 
+    @media (min-width: 992px) {
+      .navbar-collapse {
+        padding: 0;
+        max-height: none;
+      }
+      .navbar-collapse ul {
+        float: none;
+        display: block;
+      }
+      .navbar-collapse li {
+        float: none;
+        display: block;
+      }
+      .navbar-collapse .li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+    }
+/*
+we can use this to fix the cart at the top
+.navbar-fixed-left {
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+*/
+		</style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- http://jsfiddle.net/mavent/WPfe3/2/ -->
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+              </button>
+            </div>
+						<div class="collapse navbar-collapse">
+							<ul>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Features</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Pricing</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link disabled" href="#">Disabled</a>
+								</li>
+							</ul>
+						</div>
+          </nav>
+					<div class="row">
+            <p>mini shop cart</p>
+          </div>
+        </div>
+        <div class="col-md-9"> <!-- right side -->
+          <div class="row">
+            <p>header</p>
+          </div>
+          <div class="row">
+            <p>search</p>
+          </div>
+          <div class="row">
+              <div class="col-md-3 col-sm-12">Please make your selection:</div>
+              <div class="col-md-3 col-sm-6">[type |v]</div>
+              <div class="col-md-3 col-sm-6">[quality |v]</div>
+              <div class="col-md-3 col-sm-6">[design |v]</div>
+              <div class="col-md-3 col-sm-6">[color |v]</div>
+              <div class="col-md-3 col-sm-6">[promotion |v]</div>
+          </div>
+          <div class="row">
+            <p>n products</p>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_20170224_142814_resized.jpg" alt="African Fashion Laces peach/orange-peach" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG-20170224-WA0013.jpg" alt="African Fashion Laces wine/fuchsia-rose" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5358.JPG" alt="African Fashion Laces mustard" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5363.JPG" alt="African Fashion Laces peach" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5368.JPG" alt="African Fashion Laces mint" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5376_d697.JPG" alt="African Fashion Laces olive" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5380.JPG" alt="African Fashion Laces dusty rose/rose" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5385.JPG" alt="African Fashion Laces beige/rose" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5389.JPG" alt="African Fashion Laces silver/aqua" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5393.JPG" alt="African Fashion Laces sage/dark green" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5397.JPG" alt="African Fashion coffee brown/mauve" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+          </div> <!-- row -->
+          <div class="row">
+            <p>n products</p>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_20170224_142814_resized.jpg" alt="African Fashion Laces peach/orange-peach" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG-20170224-WA0013.jpg" alt="African Fashion Laces wine/fuchsia-rose" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5358.JPG" alt="African Fashion Laces mustard" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <img src="image/tn_IMG_5363.JPG" alt="African Fashion Laces peach" /><br>
+              <h3>African Fashion Laces sage/dark green</h3>
+              <p>
+              USD 180.00 / 5 yard </p>
+            </div>
+          </div> <!-- row -->
+        </div> <!-- right side -->
+      </div> <!-- .row -->
+    </div> <!-- .container-fluid -->
+		<script src="javascript/jquery-3.2.1.min.js"></script>
+		<script src="javascript/bootstrap.min.js"></script>
+  </body>
+</html>
