@@ -8,7 +8,7 @@
 
 - http://ww.filtex.ch/responsive/shop/clean.html : a simplified vesion with boostrap injected
 - the current version of bootstrap needs a newer version of jquery: we will have to update the one in this i4.
-
+- http://jsfiddle.net/mavent/WPfe3/2/
 
 
 
